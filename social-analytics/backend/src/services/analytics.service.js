@@ -1,7 +1,7 @@
 const axios = require("axios");
 
-const ACCESS_TOKEN = "SEU_ACCESS_TOKEN_AQUI"; // Substitua pelo seu token de acesso do Instagram Graph API
-const INSTAGRAM_ID = "SEU_INSTAGRAM_ID_AQUI"; // Substitua pelo ID do seu perfil do Instagram
+const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
+const INSTAGRAM_ID = process.env.INSTAGRAM_ID;
 
 exports.getInstagramMetrics = async () => {
   try {
