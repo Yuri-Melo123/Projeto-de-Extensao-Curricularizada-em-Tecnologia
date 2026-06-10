@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Networks_Dashboard",
-    "slug": "Networks_Dashboard",
+    "name": "Social Analytics",
+    "slug": "social-analytics",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -48,8 +48,9 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "1e2be7ed-86fa-41f0-9aff-82624accbed4"
+        "projectId": "34a2baf4-8bee-4129-8b20-8152304eb9a2"
       }
-    }
+    },
+    "owner": "yurimelo123"
   }
 }
